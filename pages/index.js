@@ -1,7 +1,10 @@
+// landing page/home page of app
+
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css' // import style sheet into js file and reference teh styles in jsx (like in line 7)
 
+// every file MUST have one default export
 export default function Home() {
   return (
     <div className={styles.container}>
